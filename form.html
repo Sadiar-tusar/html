@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
 </head>
 <body>
-    <h2>Registation Form</h2>
+
+    <fieldset>
+    <legend> <b>Registation Form</b></legend>
     <form action="">
         <label for="">Full Name:</label>
-        <input type="text"><br>
+        <input type="text" id="sadiar"><br>
 
         <label for="">Email:</label><br>
-        <input type="email"><br>
+        <input type="email" class="tusar"><br>
 
         <label for="">Password</label><br>
-        <input type="password"><br>
+        <input type="password" class="tusar"><br>
 
         <label for="">Cell:</label><br>
-        <input type="text"><br>
+        <input type="text" class="tusar"><br>
 
         <label for="">Gender</label><br>
         <input type="radio" name="gender"> Male <br>
@@ -33,7 +40,22 @@
         <option value="">HTML</option>
         <option value="">JAVA</option>
 
-    </select>
+    </select><br>
+<label for="">Hobby</label><br>
+<input type="checkbox">Coding
+<input type="checkbox">Traveling
+<input type="checkbox">Programing <br>
+
+<label for="">Date of Birth</label><br>
+<input type="date"><br>
+
+<label for="">About Your Self</label><br>
+<textarea name="" id="" cols="40" rows="10"></textarea><br>
+<input type="submit" value="Save">
+
+
+
      </form>
+    </fieldset>
 </body>
 </html>
