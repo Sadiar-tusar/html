@@ -15,3 +15,28 @@ input[type=submit]{
     background-color: rgb(59, 34, 47);
 
 }
+
+#xxx{
+    background-color: aqua;
+
+}
+
+#A{
+    color: aqua;
+}
+#B{
+    color: blue;
+}
+#C{
+    color: beige;
+}
+#D{
+    color: blueviolet;
+}
+#E{
+    color: brown;
+}
+legend{
+    background-color: blue;
+
+}

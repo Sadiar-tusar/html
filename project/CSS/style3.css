@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    background-color: aqua;
+
+
+
+}
+
+
+#sidebar {
+    width: 10%;
+    background-color: brown;
+    height: 90.60vh;
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+
+
+}
+
+/* to decorate anchor tag */
+a {
+    text-decoration: none;
+    color: beige
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+iframe {
+    height: 90vh;
+    width: 85%
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+
+}
+
+h1 {
+    padding: 15px;
+}
